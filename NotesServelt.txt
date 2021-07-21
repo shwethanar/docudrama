@@ -179,11 +179,13 @@ public void oauth2LoginWithCustomLoginPageThenRedirectCustomLoginPage() throws E
 }
 
 
-
+###Sample help for URL:
 
 https://stackoverflow.com/questions/25247218/servlet-filter-how-to-get-all-the-headers-from-servletrequest
+
+http://www.javased.com/index.php?api=javax.servlet.http.HttpServletResponse
 	
-	
+https://www.programcreek.com/java-api-examples/?api=javax.servlet.http.HttpServletResponse	
 	
 	
 	
