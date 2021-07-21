@@ -1,0 +1,189 @@
+https://stackoverflow.com/questions/12364555/how-can-i-display-all-the-http-headers-when-using-the-defaulthttpclient
+
+import java.util.Arrays;
+    import org.apache.http.Header;
+    import org.apache.http.HttpResponse;
+    import org.apache.http.client.HttpClient;
+    import org.apache.http.client.methods.HttpGet;
+    ...
+    HttpResponse response;
+    ...
+    HttpGet httpGet = new HttpGet(serviceURL);
+    response = httpclient.execute(httpGet);
+    ...
+    // Print all headers
+    List<Header> httpHeaders = Arrays.asList(response.getAllHeaders());        
+    for (Header header : httpHeaders) {
+        System.out.println("Headers.. name,value:"+header.getName() + "," + header.getValue());
+    }
+	
+	
+==============================
+
+
+https://examples.javacodegeeks.com/enterprise-java/servlet/get-all-request-headers-in-servlet/
+
+package com.javacodegeeks.snippets.enterprise;
+ 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+ 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+ 
+public class GetAllRequestHeadersInServlet extends HttpServlet {
+ 
+    private static final long serialVersionUID = -2128122335811219481L;
+ 
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
+        handleRequest(req, res);
+    }
+ 
+    public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+        handleRequest(req, res);
+    }
+ 
+    public void handleRequest(HttpServletRequest req, HttpServletResponse res) throws IOException {
+ 
+        PrintWriter out = res.getWriter();
+        res.setContentType("text/plain");
+ 
+        Enumeration<String> headerNames = req.getHeaderNames();
+ 
+        while (headerNames.hasMoreElements()) {
+ 
+            String headerName = headerNames.nextElement();
+            out.write(headerName);
+            out.write("n");
+ 
+            Enumeration<String> headers = req.getHeaders(headerName);
+            while (headers.hasMoreElements()) {
+                String headerValue = headers.nextElement();
+                out.write("t" + headerValue);
+                out.write("n");
+            }
+ 
+        }
+ 
+        out.close();
+ 
+    }
+ 
+}
+
+=================
+
+
+
+
+
+http://www.javased.com/index.php?api=javax.servlet.http.HttpServletResponse
+
+https://docs.oracle.com/cd/E23095_01/Platform.93/ATGProgGuide/html/s0803httpservletresponse01.html
+
+
+https://www.tabnine.com/code/java/methods/javax.servlet.http.HttpServletResponse/getStatus
+
+if ("POST".equalsIgnoreCase(request.getMethod())) 
+{
+   test = request.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
+}
+
+static String extractPostRequestBody(HttpServletRequest request) throws IOException {
+    if ("POST".equalsIgnoreCase(request.getMethod())) {
+        Scanner s = new Scanner(request.getInputStream(), "UTF-8").useDelimiter("\\A");
+        return s.hasNext() ? s.next() : "";
+    }
+    return "";
+}
+
+
+private void servletPath(MockHttpServletRequest request, String requestPath) {
+  String servletPath = requestPath.substring(request.getContextPath().length());
+  request.setServletPath(servletPath);
+}
+
+
+@Override
+public MockHttpServletRequest postProcessRequest(MockHttpServletRequest request) {
+  request.setServletPath(this.forwardUrl);
+  return request;
+}
+
+
+@Test
+public void antMatchersPathVariables() throws Exception {
+  loadConfig(AntPatchersPathVariables.class);
+  this.request.setServletPath("/user/user");
+  this.springSecurityFilterChain.doFilter(this.request, this.response, this.chain);
+  assertThat(this.response.getStatus()).isEqualTo(HttpServletResponse.SC_OK);
+  this.setup();
+  this.request.setServletPath("/user/deny");
+  this.springSecurityFilterChain.doFilter(this.request, this.response, this.chain);
+  assertThat(this.response.getStatus()).isEqualTo(HttpServletResponse.SC_FORBIDDEN);
+}
+
+@Test
+public void multiHttpSampleWhenRequestAdminResourceWithAdminUserThenStatusOk() throws Exception {
+  this.spring.register(SampleMultiHttpSecurityConfig.class).autowire();
+  this.request.setServletPath("/api/admin/test");
+  this.request.addHeader("Authorization", "Basic " + Base64.getEncoder().encodeToString("admin:password".getBytes()));
+  this.springSecurityFilterChain.doFilter(this.request, this.response, this.chain);
+  assertThat(this.response.getStatus()).isEqualTo(HttpServletResponse.SC_OK);
+}
+
+@Test
+public void clearAuthenticationFalse() throws Exception {
+  loadConfig(ClearAuthenticationFalseConfig.class);
+  SecurityContext currentContext = SecurityContextHolder.createEmptyContext();
+  currentContext.setAuthentication(new TestingAuthenticationToken("user", "password", "ROLE_USER"));
+  request.getSession().setAttribute(HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY, currentContext);
+  request.setMethod("POST");
+  request.setServletPath("/logout");
+  springSecurityFilterChain.doFilter(request, response, chain);
+  assertThat(currentContext.getAuthentication()).isNotNull();
+}
+
+
+@Test
+public void multiHttpSampleWhenRequestLoginWithoutCredentialsThenRedirectToLogin() throws Exception {
+  this.spring.register(SampleMultiHttpSecurityConfig.class).autowire();
+  this.request.setServletPath("/login");
+  this.request.setMethod("POST");
+  this.springSecurityFilterChain.doFilter(this.request, this.response, this.chain);
+  assertThat(this.response.getRedirectedUrl()).isEqualTo("/login?error");
+}
+
+
+@Test
+public void testRequiresAuthenticationFilterProcessUrl() {
+  String url = "/login/cas";
+  CasAuthenticationFilter filter = new CasAuthenticationFilter();
+  filter.setFilterProcessesUrl(url);
+  MockHttpServletRequest request = new MockHttpServletRequest();
+  MockHttpServletResponse response = new MockHttpServletResponse();
+  request.setServletPath(url);
+  assertThat(filter.requiresAuthentication(request, response)).isTrue();
+}
+
+@Test
+public void oauth2LoginWithCustomLoginPageThenRedirectCustomLoginPage() throws Exception {
+  loadConfig(OAuth2LoginConfigCustomLoginPage.class);
+  String requestUri = "/";
+  this.request = new MockHttpServletRequest("GET", requestUri);
+  this.request.setServletPath(requestUri);
+  this.springSecurityFilterChain.doFilter(this.request, this.response, this.filterChain);
+  assertThat(this.response.getRedirectedUrl()).matches("http://localhost/custom-login");
+}
+
+
+
+
+https://stackoverflow.com/questions/25247218/servlet-filter-how-to-get-all-the-headers-from-servletrequest
+	
+	
+	
+	
+	
