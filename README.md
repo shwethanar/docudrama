@@ -8,3 +8,5 @@
 
 ### Servlets
 https://java.hotexamples.com/examples/javax.servlet.http/HttpServletRequest/getParts/java-httpservletrequest-getparts-method-examples.html
+##### Testing
+https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/
