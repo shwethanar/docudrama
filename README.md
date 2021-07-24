@@ -10,3 +10,15 @@
 https://java.hotexamples.com/examples/javax.servlet.http/HttpServletRequest/getParts/java-httpservletrequest-getparts-method-examples.html
 ##### Testing
 https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/
+https://www.softwaretestinghelp.com/manual-testing-tutorial-1/
+https://www.softwaretestinghelp.com/test-case-template-examples/
+
+#####Junit Testing Servlets
+https://stackoverflow.com/questions/90907/unit-testing-a-java-servlet
+https://stackoverflow.com/questions/14404808/how-do-i-unit-test-httpservlet
+
+##### SOAPUI
+https://wso2.com/library/blog-post/2013/07/blog-post-working-with-http-multipart-requests-in-soapui/
+
+
+
