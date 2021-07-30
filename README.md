@@ -12,6 +12,8 @@ https://java.hotexamples.com/examples/javax.servlet.http/HttpServletRequest/getP
 https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/
 https://www.softwaretestinghelp.com/manual-testing-tutorial-1/
 https://www.softwaretestinghelp.com/test-case-template-examples/
+https://stackoverflow.com/questions/14525982/getting-request-payload-from-post-request-in-java-servlet
+
 
 ##### Junit Testing- Servlets
 https://stackoverflow.com/questions/90907/unit-testing-a-java-servlet
