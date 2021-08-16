@@ -22,5 +22,8 @@ https://stackoverflow.com/questions/14404808/how-do-i-unit-test-httpservlet
 ##### SOAPUI
 https://wso2.com/library/blog-post/2013/07/blog-post-working-with-http-multipart-requests-in-soapui/
 
+##### Documentation
+https://docs.microsoft.com/en-us/power-platform/admin/using-word-templates-dynamics-365
+
 
 
