@@ -1,3 +1,6 @@
+Copied from Read.MD file from:
+https://github.com/weimeilin79/kamelet-salesforce-demo
+
 # Simple demo to introduce Kamelet
 
 This demo will use Kamelet to stream campaign creation events from Salesforce to a Kafka topic hosted by Red Hat. And translate the campaign title into multiple languages using AWS translate service. Lastly pushing the campaign to the end audience on Telegram.  
