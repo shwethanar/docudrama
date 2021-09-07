@@ -25,5 +25,13 @@ https://wso2.com/library/blog-post/2013/07/blog-post-working-with-http-multipart
 ##### Documentation
 https://docs.microsoft.com/en-us/power-platform/admin/using-word-templates-dynamics-365
 
+##### Design
+###### Create sequence diagram automatically in eclipse using Diver
+
+https://youtu.be/OLKx3FXpWYU
+https://eclipsediver.wordpress.com/download/
+https://sourceforge.net/projects/diver/files/
+
+
 
 
