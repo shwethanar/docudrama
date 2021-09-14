@@ -32,6 +32,15 @@ https://youtu.be/OLKx3FXpWYU
 https://eclipsediver.wordpress.com/download/
 https://sourceforge.net/projects/diver/files/
 
+##### Data Science
+###### Goodies
 
+https://towardsdatascience.com/5-habits-i-learned-from-successful-data-scientists-at-microsoft-aef16a4cfb9b
 
+##### Exception Handling in JSP
+###### notes
+
+https://mail.codejava.net/java-ee/jsp/how-to-handle-exceptions-in-jsp
+https://stackoverflow.com/questions/2361559/handling-response-redirect-errors-in-jsp-page
+https://stackoverflow.com/questions/17423190/redirecting-on-exception-from-included-jsp-pages
 
