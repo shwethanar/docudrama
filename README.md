@@ -44,3 +44,8 @@ https://mail.codejava.net/java-ee/jsp/how-to-handle-exceptions-in-jsp
 https://stackoverflow.com/questions/2361559/handling-response-redirect-errors-in-jsp-page
 https://stackoverflow.com/questions/17423190/redirecting-on-exception-from-included-jsp-pages
 
+
+#JSP
+https://www.w3.org/TR/REC-html40/interact/scripts.html#h-18.2.1
+
+
