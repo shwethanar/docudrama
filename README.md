@@ -32,6 +32,12 @@ https://youtu.be/OLKx3FXpWYU
 https://eclipsediver.wordpress.com/download/
 https://sourceforge.net/projects/diver/files/
 
+##### Design
+
+#####LDAP
+https://www.sonicwall.com/support/knowledge-base/cannot-connect-to-ldap-server-on-port-389-3268-and-636/170504922409869/
+https://www3.trustwave.com/support/kb/KnowledgebaseArticle20424.aspx
+
 ##### Data Science
 ###### Goodies
 
