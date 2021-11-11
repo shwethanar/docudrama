@@ -43,12 +43,17 @@ https://www3.trustwave.com/support/kb/KnowledgebaseArticle20424.aspx
 
 https://towardsdatascience.com/5-habits-i-learned-from-successful-data-scientists-at-microsoft-aef16a4cfb9b
 
+##### Java 8
+https://www.pgrs.net/2015/04/23/partial-function-application-in-java-8/
+
 ##### Exception Handling in JSP
 ###### notes
 
 https://mail.codejava.net/java-ee/jsp/how-to-handle-exceptions-in-jsp
 https://stackoverflow.com/questions/2361559/handling-response-redirect-errors-in-jsp-page
 https://stackoverflow.com/questions/17423190/redirecting-on-exception-from-included-jsp-pages
+
+
 
 
 #JSP
