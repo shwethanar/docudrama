@@ -45,6 +45,7 @@ https://towardsdatascience.com/5-habits-i-learned-from-successful-data-scientist
 
 ##### Java 8
 https://www.pgrs.net/2015/04/23/partial-function-application-in-java-8/
+http://tutorials.jenkov.com/java-nio/path.html#:~:text=get(%22d%3A%5C%5Cdata%22,)%20d%3A%5Cdata%5Cprojects%20. (Paths in Java 8)
 
 ##### Exception Handling in JSP
 ###### notes
