@@ -68,15 +68,26 @@ Java Programming Masterclass covering Java 11 & Java 17		Udemy	https://www.udemy
 			
 			
 			
-Cheat Sheets			
+### Cheat Sheets			
 			
-Java			https://github.com/in28minutes/java-cheat-sheet
-Apache Camel		Cristina Lin	https://www.youtube.com/watch?v=T26KKY5U-5Q
-AWS		Fireshift	https://www.youtube.com/watch?v=1pBuwKwaHp0
-			https://www.youtube.com/watch?v=JIbIYCM48to
-ESB			
-Apache Camel + SpringBoot			https://www.youtube.com/watch?v=eh9C0GyxtHE
-RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express			https://www.youtube.com/watch?v=-MTSQjw5DrM
+## Java			
+https://github.com/in28minutes/java-cheat-sheet
+
+## Apache Camel		
+-Cristina Lin	
+https://www.youtube.com/watch?v=T26KKY5U-5Q
+
+## AWS		
+- Fireshift	
+https://www.youtube.com/watch?v=1pBuwKwaHp0
+https://www.youtube.com/watch?v=JIbIYCM48to
+
+## ESB			
+Apache Camel + SpringBoot			
+https://www.youtube.com/watch?v=eh9C0GyxtHE
+
+## RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express			
+https://www.youtube.com/watch?v=-MTSQjw5DrM
 			
 			
 #### 01. Learn Full Stack, AWS, Cloud, and Microservices 			
