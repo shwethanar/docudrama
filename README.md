@@ -81,7 +81,7 @@ RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express			
 			
 ##► 01. Learn Full Stack, AWS, Cloud, and Microservices 			
 https://www.youtube.com/playlist?list=PLBBog2r6uMCTM_CKntPT-GIMR2-4d55Un
-##► 02. Learn Spring and Spring Boot in 5 DAYS 			
+## 02. Learn Spring and Spring Boot in 5 DAYS 			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3gtUUtlei1sT2l2azd2c2R2aEktcjR3Z0lyQXxBQ3Jtc0tuZS1NOWhmSEwxUEMwOU5NZzBOdnBRcXlqc0JlaW13UTNsTTIyNDRGY1p6VEwtNXoydEdjYTJndU4zRWl4VFhHaWJPSHd1WkdnWXdjU1J1ZFBvLVg2RWNaQVZxajM2elBJaU9Dbk1SRXppeHd3bmRubw&q=https%3A%2F%2Flinks.in28minutes.com%2F5-day-spring-spring-boot
 ##► 03. AWS Certified Solutions Architect Associate 			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXUya3NZdFY2QVFqbHU0Sm9SbnBzS1pXQU5VUXxBQ3Jtc0ttSXl0aG1QcVBKQVFQdmdPeWo4eXZQTU9WUGhneU1MeWlseGNKRWQ2bm5aOElFVGdpcE5xVkRJR1lMVklNOU96ZWVYdVhkUkJ1MUpzQjgyd0xpcVBiaTBoX0ZuekNuNUVHUWUwQ3pFbmhDZ3EyOFpqMA&q=https%3A%2F%2Flinks.in28minutes.com%2Fsbt-teachable-aws-solution-architect
