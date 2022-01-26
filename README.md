@@ -79,19 +79,25 @@ Apache Camel + SpringBoot			https://www.youtube.com/watch?v=eh9C0GyxtHE
 RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express			https://www.youtube.com/watch?v=-MTSQjw5DrM
 			
 			
-##► 01. Learn Full Stack, AWS, Cloud, and Microservices 			
+#### 01. Learn Full Stack, AWS, Cloud, and Microservices 			
 https://www.youtube.com/playlist?list=PLBBog2r6uMCTM_CKntPT-GIMR2-4d55Un
-## 02. Learn Spring and Spring Boot in 5 DAYS 			
+
+#### 02. Learn Spring and Spring Boot in 5 DAYS 			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3gtUUtlei1sT2l2azd2c2R2aEktcjR3Z0lyQXxBQ3Jtc0tuZS1NOWhmSEwxUEMwOU5NZzBOdnBRcXlqc0JlaW13UTNsTTIyNDRGY1p6VEwtNXoydEdjYTJndU4zRWl4VFhHaWJPSHd1WkdnWXdjU1J1ZFBvLVg2RWNaQVZxajM2elBJaU9Dbk1SRXppeHd3bmRubw&q=https%3A%2F%2Flinks.in28minutes.com%2F5-day-spring-spring-boot
-##► 03. AWS Certified Solutions Architect Associate 			
+
+#### 03. AWS Certified Solutions Architect Associate 			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXUya3NZdFY2QVFqbHU0Sm9SbnBzS1pXQU5VUXxBQ3Jtc0ttSXl0aG1QcVBKQVFQdmdPeWo4eXZQTU9WUGhneU1MeWlseGNKRWQ2bm5aOElFVGdpcE5xVkRJR1lMVklNOU96ZWVYdVhkUkJ1MUpzQjgyd0xpcVBiaTBoX0ZuekNuNUVHUWUwQ3pFbmhDZ3EyOFpqMA&q=https%3A%2F%2Flinks.in28minutes.com%2Fsbt-teachable-aws-solution-architect
-##► 04. Getting Started with DevOps and Cloud			
+
+#### 04. Getting Started with DevOps and Cloud			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU4tdDd4YUllN2xKOUNEV0p3a2xhaHU3Yjh1UXxBQ3Jtc0tsaDFrdFdZWmxid3NSR0QtVTNOd1k4Q0lkbmUyX0xRcjRQZGgyNEFERDZaUElUN243SzZFSHdWZWtWOG0xMVRGT2VXLWQwMUoyU1lwck10YlMyWVNkSnljLXhabTBPTllRV1RSQV9zeGsxSjVhMmFYYw&q=https%3A%2F%2Flinks.in28minutes.com%2F5-day-spring-spring-boot
-##► 05. Learn Docker in 10 Steps			
+
+#### 05. Learn Docker in 10 Steps			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEEzeTBfNlNSN1A3R1ZRU2dNMzBUeWlHMzMxQXxBQ3Jtc0tsZnFRekwyNjVSN0ZQanU2ajZzQXJBakZvWDljTnNnMmRxMEZ5elFrTzRvZmpqZlYwYUhaSmk1VHk3ejR5RW9GZFAwX2J6SGdlcXZqRVNhbHFyT1hYMHFRcGpWalpsS3hhRTVUSU9uWmNjNGJndkFadw&q=https%3A%2F%2Flinks.in28minutes.com%2Fin28minutes-10steps-docker
-##► 06. Learn Kubernetes in 10 Steps			
+
+#### 06. Learn Kubernetes in 10 Steps			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTgxd2RfQ0d2UGg4SGtXMmdSN25BVFFfTU9lZ3xBQ3Jtc0ttWElqRDg1T0pQS1BKOGRlc1ZiUW4yX1NmaXVDbms2cENkWmhLbmp0UUo0TGVQMldxM2pQV3RtRlRtNEh0VnlGS3UxUEdhaTBNTWsxaEcySXJRWnZ2OUhDZFhVLTVUdmd4Vi1WNEw0NmRsSkE2NUZiRQ&q=https%3A%2F%2Flinks.in28minutes.com%2Fin28minutes-10steps-k8s
-##► 07. Learn AWS in 10 Steps			
+
+#### 07. Learn AWS in 10 Steps			
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU5HQ2NVc1JQRTV1ZFNvSld2MkVlRmNuQ2YxZ3xBQ3Jtc0tueThyMURIN0VVV3YxTmpoMXZWN3pVbjkxR0dYeXdFTmY1ZHpEb1hJTGtmNWI4Z0Z6c0h2YW12dWsyYXhrbGF0clNyS0xBbWpCeUZDMWQ5ekNiQ3ppbHQwR2JQRU9MQ216cmw4NlpkelNVVzZXUUNOdw&q=https%3A%2F%2Flinks.in28minutes.com%2Fin28minutes-10steps-aws-beanstalk
 
 
