@@ -113,3 +113,33 @@ https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU5
 
 #### 08. Microservices	
 https://youtu.be/j3XufmvEMiM
+
+#### 09. Git stuff	
+git [--version] [--help] [-C <path>] [-c <name>=<value>]
+    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]
+    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+    [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+    <command> [<args>]
+	
+mapping objects
+
+saved as a tree --> 
+
+git init --> .git file (initialised git)
+add files to this repo , to track -> git add .
+commit these to git --> git commit -m "commit message" 
+(hashcode created commit number)
+
+
+
+push to (set upstream ) --> git remote add origin https://github.com/shwethanar/sample.git
+git push -u origin main
+------------------------------------------------------------------------------------------------
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shwethanar/sample.git
+git push -u origin main
