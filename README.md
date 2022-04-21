@@ -131,10 +131,9 @@ add files to this repo , to track -> git add .
 commit these to git --> git commit -m "commit message" 
 (hashcode created commit number)
 
-
-
 push to (set upstream ) --> git remote add origin https://github.com/shwethanar/sample.git
 git push -u origin main
+	
 ------------------------------------------------------------------------------------------------
 
 git init
